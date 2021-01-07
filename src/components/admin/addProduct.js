@@ -27,7 +27,7 @@ const AddProduct = () => {
   })
   const [imgArray, setImgArray] = useState([])
 
-  useEffect(() => {}, [productInfo, imgArray, productStatus, dispatch])
+  //useEffect(() => {}, [productInfo, imgArray, productStatus, dispatch])
 
   const pushImage = (image) => setImgArray([...imgArray, image])
   const submitNewProduct = (e) => {
